@@ -37,6 +37,7 @@ namespace AspNetSample.Areas.Identity.Pages.Account.Manage
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
 
+            [Remote(action: "VerifyTravelDestination", controller: "Users")]
             [Display(Name = "おすすめの旅行先")]
             public string RecommendTravelDestination { get; set; }
         }
