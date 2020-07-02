@@ -6,9 +6,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\Migrations\20200702115007_addNewTable.cs" />
+    <Compile Remove="Data\Migrations\20200702115007_addNewTable.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200702120211_addNewTable.cs" />
+    <Compile Remove="Data\Migrations\20200702120211_addNewTable.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200702122516_addColumn.cs" />
+    <Compile Remove="Data\Migrations\20200702122516_addColumn.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />

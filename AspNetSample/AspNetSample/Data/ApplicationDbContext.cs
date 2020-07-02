@@ -14,6 +14,8 @@ namespace AspNetSample.Data
         {
         }
 
-        public DbSet<TravelDestinations> TravelDestinations { get; set; }
+        public DbSet<TravelDestination> TravelDestinations { get; set; }
+
+        public DbSet<TravelMemory> TravelMemories { get; set; }
     }
 }

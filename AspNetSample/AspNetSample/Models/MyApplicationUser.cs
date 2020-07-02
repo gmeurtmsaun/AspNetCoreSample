@@ -10,6 +10,8 @@ namespace AspNetSample.Models
     {
         public string RecommendTravelDestination { get; set; }
 
-        public ICollection<TravelDestinations> LikeTravelDestinations { get; set; }
+
+
+        public ICollection<TravelDestination> LikeTravelDestinations { get; set; }
     }
 }

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AspNetSample.Models
 {
-    public class TravelDestinations
+    public class TravelDestination
     {
         public int Id { get; set; }
 
